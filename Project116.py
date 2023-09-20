@@ -1,0 +1,13 @@
+import cv2
+solarsystem=cv2.imread("C:/Users/georg/Downloads/PRO-c116-OpenCV-Image-Assets-main/PRO-c116-OpenCV-Image-Assets-main/solar-system.jpg")
+cv2.putText(solarsystem,"Sun",(125,125),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=0.75,color=(96,125,204))
+cv2.putText(solarsystem,"Mercury",(100,300),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=0.75,color=(96,125,204))
+cv2.putText(solarsystem,"Venus",(200,300),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=0.75,color=(96,125,204))
+cv2.putText(solarsystem,"Earth",(250,125),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=0.75,color=(96,125,204))
+cv2.putText(solarsystem,"Mars",(400,125),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=0.75,color=(96,125,204))
+cv2.putText(solarsystem,"Jupiter",(500,50),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=1,color=(96,125,204))
+cv2.putText(solarsystem,"Saturn",(700,125),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=1,color=(96,125,204))
+cv2.putText(solarsystem,"Uranus",(900,125),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=1,color=(96,125,204))
+cv2.putText(solarsystem,"Neptune",(1100,125),fontFace=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX,fontScale=1,color=(96,125,204))
+cv2.imshow("This is the solar system",solarsystem)
+cv2.waitKey(0)
